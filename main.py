@@ -1,8 +1,7 @@
-a = int(input("Число первое:"))
-b = int(input("Число второе:"))
-if a > b:
-    print(a)
-elif b > a:
-    print(b)
+num = int(input ("Введи число: "))
+if num > 0:
+    print ( "Плюс")
+elif num < 0:
+    print ( "Минус")
 else:
-    print("Числа равны")
+    print ("Ноль")
