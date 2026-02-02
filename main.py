@@ -1,3 +1,3 @@
-a = int(input("Введите первое число:"))
-b = int(input("Введите второе число:"))
-print(abs(a-b))
+name = input("Введи имя: ")
+prof = input("Ваша профессия: ")
+print(f"{name} — это отличный {prof}!")
