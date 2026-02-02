@@ -1,5 +1,3 @@
-login = input("Введите логин: ")
-if login != "admin":
-    print("Доступ запрещен")
-else:
-    print("Доступ разрешен")
+for i in range(1, 5):
+    print(i**2, end=' ')
+print()
