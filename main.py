@@ -1,2 +1,5 @@
-for i in range(5, 0, -1):
-    print(i)
+day = input("Введите день недели: ")
+if day in ["Суббота", "Воскресенье"]:
+    print("Выходной")
+else:
+    print("Работа")
