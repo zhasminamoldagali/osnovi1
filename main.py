@@ -1,6 +1,4 @@
-world = input("Введите слово: ")
-
-if len(world) > 5:
-    print("Длинное")
-else:
-    print("Короткое")
+n = int(input("Введите число: "))
+while n < 100:
+    n *=2
+print(n)
