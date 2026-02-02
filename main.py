@@ -1,6 +1,7 @@
 num = int(input("Введите число: "))
+i = 0
+while i != 10:
+    i += 1
+    itoge = num * i
 
-if not num:
-    print("Это ноль")
-else:
-    print(f"Вы ввели {num}")
+    print(str(itoge))
