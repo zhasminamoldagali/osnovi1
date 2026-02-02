@@ -1,6 +1,8 @@
-w = input("Введите слово:")
-
-n = int(input("Сколько раз повторить?"))
-
-for i in range(n):
-    print(w)
+a = int(input("Число первое:"))
+b = int(input("Число второе:"))
+if a > b:
+    print(a)
+elif b > a:
+    print(b)
+else:
+    print("Числа равны")
