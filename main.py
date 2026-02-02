@@ -1,3 +1,5 @@
-num = float(input("Введите число:"))
-
-print(f"Квадрат числа {num:g} равен {num**2:g}")
+age = int(input("Введите возраст:"))
+if age >= 18:
+    print("Доступ разрешен")
+else:
+    print("Маловат еще")
