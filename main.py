@@ -1,5 +1,3 @@
-n = int(input("Введите число n:"))
-while n >=0:
-    print(n, end=' ')
-    n -= 1
-print()
+a = int(input("Введите первое число:"))
+b = int(input("Введите второе число:"))
+print((a + b)/2)
