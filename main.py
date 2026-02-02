@@ -1,3 +1,5 @@
-word = input("Введи слово: ")
-if word.lower().startswith("а"):
-    print("Начинается на А")
+n = int(input("Введи число: "))
+if n == 7:
+    print("Счастливое число!")
+else: 
+    print("Обычное число")
