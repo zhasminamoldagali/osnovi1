@@ -1,3 +1,5 @@
-for i in range(2, 11, 2):
-    print(i, end=" ")
-print()
+word = input("Введите слово: ")
+if "а" in word:
+    print("Найдена")
+else: 
+    print("Не найдено")
