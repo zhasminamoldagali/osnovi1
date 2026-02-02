@@ -1,6 +1,6 @@
-q = int(input("Ведите число: "))
+world = input("Введите слово: ")
 
-if q >= 10 and q <= 20:
-    print("Число в диапазоне")
+if len(world) > 5:
+    print("Длинное")
 else:
-    print("Число вне диапазоне")
+    print("Короткое")
