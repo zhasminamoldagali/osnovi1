@@ -1,4 +1,6 @@
-n = int(input("Введите число: "))
-while n < 100:
-    n *=2
-print(n)
+num = int(input("Введите число: "))
+
+if not num:
+    print("Это ноль")
+else:
+    print(f"Вы ввели {num}")
