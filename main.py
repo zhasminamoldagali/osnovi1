@@ -1,7 +1,7 @@
-num = int(input("Введите число: "))
-i = 0
-while i != 10:
-    i += 1
-    itoge = num * i
+money = float(input("Введите сумму покупки: "))
 
-    print(str(itoge))
+if money > 1000:
+    itog = money * 0.9
+    print(f"С учетом скидки к оплате: {itog:g}")
+else:
+    prit(f"К оплате: {money:g}")
