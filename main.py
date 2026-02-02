@@ -1,7 +1,7 @@
-money = float(input("Введите сумму покупки: "))
-
-if money > 1000:
-    itog = money * 0.9
-    print(f"С учетом скидки к оплате: {itog:g}")
+score = int(input("Введите балл (1-5): "))
+if score == 5:
+    print("Отлично")
+elif score == 4:
+    print("Хорошо")
 else:
-    prit(f"К оплате: {money:g}")
+    print("Старайся")
